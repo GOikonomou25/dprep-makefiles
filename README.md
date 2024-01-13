@@ -19,25 +19,15 @@ Second, summarize your results concisely. Make use of subheaders where appropria
 
 Provide an overview of the directory structure and files, for example:
 
-├── README.md
-
-├── data
-
-├── gen
-
-│   ├── analysis
-
-│   ├── data-preparation
-
-│   └── paper
-
-
-└── src
-    ├── analysis
-    
-    ├── data-preparation
-    
-    └── paper
+├── README.md <br>
+├── data <br>
+├── gen <br>
+│   ├── temp <br>
+│   ├── output <br>
+└── src <br>
+    ├── analysis <br>
+    ├── data-preparation <br>
+    └── paper <br>
 
 
 ## Running instructions
