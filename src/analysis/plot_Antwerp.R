@@ -5,9 +5,9 @@ library(tidyverse)
 
 # Input # 
 ## import the data from `gen/analysis/pivot_table`
-df_pivot <- read_csv("pivot_table.csv")
+df_pivot <- read_csv("../../gen/temp/pivot_table.csv")
 
-pdf("plot_Antwerp.pdf")
+pdf("../../gen/output/plot_Antwerp.pdf")
 plot(x = df_pivot$date, 
      y = df_pivot$Stadspark, 
      col = "red", 

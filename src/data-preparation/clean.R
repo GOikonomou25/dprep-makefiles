@@ -4,8 +4,8 @@ library(tidyverse)
 # CLEAN DATA 
 
 # Input#
-reviews <- read_csv("data/reviews.csv")
-listings <- read_csv("data/listings.csv")
+reviews <- read_csv("../../data/reviews.csv")
+listings <- read_csv("../../data/listings.csv")
 
 # Transformation #
 ## filter for reviews published since 01/01/2015
@@ -28,4 +28,4 @@ df_grouped <- df_grouped %>% mutate(date = as.Date(paste0(year, "-", month, "-01
 
 # Output #
 ## store the final data frame in `gen/data-preparation` as `aggregated_df.csv`
-write_csv(df_grouped, "temp/aggregated_df.csv")
+write_csv(df_grouped, "../../gen/temp/aggregated_df.csv")
