@@ -22,15 +22,21 @@ Provide an overview of the directory structure and files, for example:
 ├── README.md
 
 ├── data
+
 ├── gen
 
 │   ├── analysis
+
 │   ├── data-preparation
+
 │   └── paper
+
 
 └── src
     ├── analysis
+    
     ├── data-preparation
+    
     └── paper
 
 
